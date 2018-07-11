@@ -1,9 +1,9 @@
 {
 	"description": "项目配置文件。",
 	"client": "./client",
-    "svr": "./happy_friend_server",
+	"svr": "./happy_friend_server",
 	"miniprogramRoot": "./client",
-    "qcloudRoot":"./happy_friend_server",
+	"qcloudRoot": "./happy_friend_server",
 	"setting": {
 		"es6": true,
 		"newFeature": true
