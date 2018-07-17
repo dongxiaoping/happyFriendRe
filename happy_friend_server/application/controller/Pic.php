@@ -25,7 +25,9 @@ class Pic
 
     //http://39.108.181.67:8080/happyFriendRe/happy_friend_server/public/index.php?s=/pic/test
     public  function test(){
-        echo getJsonStringByParam(0,"param_error","");
+        //echo getJsonStringByParam(0,"param_error","");
+        $filePath = APP_PATH.'/image/cc.jpg';
+        echo $filePath;
     }
 
     //http://39.108.181.67:8080/happyFriendRe/happy_friend_server/public/index.php?s=/pic/pic_upload
@@ -36,7 +38,7 @@ class Pic
         // 生成上传 Token
         $token = $auth->uploadToken($this->bucket);
         // 要上传文件的本地路径
-        $filePath = APP_PATH.'\image\cc.jpg';
+        $filePath = APP_PATH.'/image/cc.jpg';
         // 上传到七牛后保存的文件名
         $key = 'my-php-logo.jpg';
         // 初始化 UploadManager 对象并进行文件的上传。
