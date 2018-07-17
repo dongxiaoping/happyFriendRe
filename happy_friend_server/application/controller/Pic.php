@@ -21,6 +21,7 @@ class Pic
         $this->bucket = 'images';
     }
 
+    //http://39.108.181.67:8080/happyFriendRe/happy_friend_server/public/index.php?s=pic&test
     public  function test(){
         header('Access-Control-Allow-Origin:*');
         $policy = array(
