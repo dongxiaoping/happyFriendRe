@@ -22,7 +22,7 @@ class User
         echo "dd2d";
     }
 
-    //http://localhost/happy_friend_server/public/index.php/user/get_user_info
+    //http://39.108.181.67:8083/happyFriendRe/happy_friend_server/public/index.php/user/test
     public function get_user_info(){
         header("Access-Control-Allow-Origin: *"); //支持跨域
         if(isset($_GET["id"])){

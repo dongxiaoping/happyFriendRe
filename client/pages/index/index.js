@@ -32,7 +32,7 @@ Page({
       });
 
       wx.request({
-          url: "https://vwcllv78.qcloud.la/public/index.php",
+        url: "http://39.108.181.67:8080/happyFriendRe/happy_friend_server/public/index.php/user/test",
           method:"POST",
           data:{a:3},
           header: {
