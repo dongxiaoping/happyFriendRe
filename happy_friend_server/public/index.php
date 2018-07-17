@@ -16,9 +16,5 @@ namespace think;
 require __DIR__ . '/../thinkphp/base.php';
 require __DIR__ . '/../vendor/autoload.php';
 
-define('APP_PATH',  __DIR__.'/../application/');
-
-// 支持事先使用静态方法设置Request对象和Config对象
-
 // 执行应用并响应
 Container::get('app')->run()->send();
