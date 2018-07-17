@@ -25,7 +25,7 @@ class Pic
     public  function test(){
         header('Access-Control-Allow-Origin:*');
         $policy = array(
-            'returnUrl' => 'http://39.108.181.67:8083/happyFriendRe/test/fileinfo.php',
+            'returnUrl' => 'http://39.108.181.67:8080/happyFriendRe/test/fileinfo.php',
             'returnBody' => '{"fname": $(fname)}',
         );
         // 初始化签权对象
